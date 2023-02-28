@@ -8,10 +8,10 @@ form.addEventListener('submit', function(e) {
     let linha = '<tr>';
     linha += `<td>${InputNomeContato.value}</td>`;
     linha += `<td>${InputNumeroContato.value}</td>`;
-    linha += `<td.${InputNumeroContato.value >= 9999999999 ? 'Concluido' : 'Erro'}</td>`;
+    linha += `<td>${InputNumeroContato.value >= 9999999999 ? 'Concluido' : 'Erro'}</td>`;
     linha += `<td>${}</td>`;
     linha += `</tr>`;
 
     const corpoTabela = document.querySelector('tbody');
-    corpoTabela.innerHtml = linha;
+    corpoTabela.innerHtMl = linha;
 });
