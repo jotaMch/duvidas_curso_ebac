@@ -13,5 +13,5 @@ form.addEventListener('submit', function(e) {
     linha += `</tr>`;
 
     const corpoTabela = document.querySelector('tbody');
-    corpoTabela.innerHtMl = linha;
+    corpoTabela.innerHTML = linha;
 });
